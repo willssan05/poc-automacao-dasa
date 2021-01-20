@@ -1,0 +1,4 @@
+Gemfile.lock
+report/*.html
+report/screenshots/test_falhou/*.png
+report/screenshots/test_passou/*.png

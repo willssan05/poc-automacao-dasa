@@ -1,0 +1,10 @@
+---
+
+default: -p pretty -p dev -p chrome -p json_report
+ci: -p dev -p headless -p pretty -p html
+pretty: --format pretty
+dev: AMBIENTE=dev
+firefox: BROWSER=firefox
+chrome: BROWSER=chrome
+headless: BROWSER=headless
+json_report: --format json --out=report/report.json
